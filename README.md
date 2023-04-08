@@ -5,7 +5,7 @@ Elaborado por Ximena Toledo
 ![alt](img/1.png)
 
 ## REQUISITOS
-1. Tener instalado Apache2
+1. Tener instalado Apache
 2. Tener instalado PHP
 3. Tener instalado Mysql
 
@@ -21,7 +21,7 @@ Cambiando los permisos del instalador
 chmod 755 xampp-linux-*-installer.run
 ```
 
-Ejecutar el instalador.
+Ejecutar el instalador
 
 ```bash
 sudo ./xampp-linux-*-installer.run
@@ -43,7 +43,7 @@ sudo chown 2775 /opt/lampp/htdocs
 sudo /opt/lampp/lampp start
 ```
 
-Deter XAMPP
+Detener XAMPP
 ```bash
 sudo /opt/lampp/lampp stop
 ```
