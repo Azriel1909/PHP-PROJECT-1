@@ -62,7 +62,7 @@
                 <td> <?php echo $row['detalles_producto']?> </td>
                 <td> <?php echo $row['costo_producto']?> </td>
                 <td class="d-grid gap-2 d-md-flex">
-                    <a href="edit.php?id=<?php echo $row['id_producto']?>" class="btn btn-dark m-1">
+                    <a href="edit_product.php?id_producto=<?php echo $row['id_producto']?>" class="btn btn-dark m-1">
                       <i class="fa-solid fa-pen"></i>
                     </a>
                     <a href="delete_product.php?id_producto=<?php echo $row['id_producto']?>" class="btn btn-danger m-1">

@@ -11,7 +11,7 @@
     } 
     
     $_SESSION['message'] = "Producto eliminado correctamente!" ;
-    $_SESSION['message_tipo'] = "danger" ;
+    $_SESSION['message_tipo'] = "warning" ;
     header("Location: index.php");
   }
 ?>
