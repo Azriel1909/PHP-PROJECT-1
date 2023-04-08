@@ -47,3 +47,7 @@ Detener XAMPP
 ```bash
 sudo /opt/lampp/lampp stop
 ```
+
+### VIDEO DEMOSTRACIÓN
+
+[CRUD](https://www.youtube.com/watch?v=5g4QXFWrqw4&ab_channel=TOLEDORIVERAXIMENA)
