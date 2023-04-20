@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family:'Montserrat', sans-serif;
+}
+
+input {
+  font-family:'Montserrat', sans-serif;
+}
+
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid  #d9d9d9;
+  margin: 20px auto;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: white;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all .5s ease;
+  font-weight: 500;
+  color: black;
+}
+
+input[type="submit"]:hover {
+  letter-spacing: 3px;
+  background-color: #fe5f9c;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  letter-spacing: 3px;
+  background-color: #fe5f9c;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #fe5f9c 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+/* HEADER */
+
+header {
+  background-color: #fe5f9c;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+header a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* LOG SECTION */
+
+.log-section, .sign-section {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.initial-section, .current-section {
+  max-width: 500px;
+  margin: auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.initial-section div, .current-section div {
+  background-color:#EEEEEE;
+  box-shadow: 5px 5px 5px #bfbfbf;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.initial-section a, .current-section a {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  padding: 7px 12px;
+  transition:padding 1s;
+}
+
+.initial-section a:hover, .current-section a:hover {
+  padding: 9px 20px;
+  border-radius: 20px;
+  color: white;
+  background-color:#fe5f9c;
+}
+
+.flip-section a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 5px 10px;
+  transition:padding 1s;
+}
+
+.flip-section a:hover {
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
+  background-color:#fe5f9c;
+}
+
+.sign-section .mensaje {
+  background-color: #EEEEEE;
+  padding: 40px;
+  margin: 40px;
+}
+
+.mensaje-bienvenida {
+  padding: 30px;
+}
+

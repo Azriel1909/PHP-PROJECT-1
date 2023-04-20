@@ -7,7 +7,9 @@ Elaborado por Ximena Toledo
 ## REQUISITOS
 1. Tener instalado Apache
 2. Tener instalado PHP
-3. Tener instalado Mysql
+3. Tener instalado MySql
+
+> Nota importante: Si instalas XAMPP, no hay necesidad de instalar Apache Y MySql
 
 ## COMANDOS 
 ---
@@ -50,4 +52,4 @@ sudo /opt/lampp/lampp stop
 
 ### VIDEO DEMOSTRACIÓN
 
-[CRUD](https://www.youtube.com/watch?v=5g4QXFWrqw4&ab_channel=TOLEDORIVERAXIMENA)
+[UI and CRUD Projet Link](https://www.youtube.com/watch?v=napVQnr9JB8&ab_channel=TOLEDORIVERAXIMENAA)

@@ -63,7 +63,7 @@
             class="form-control" placeholder="Agrega un identificador">
             <input type="text" name="producto" value="<?php echo $nombre?>" class="form-control mt-2" placeholder="Agrega el nombre del producto">
             <input type="text" name="tipo" value="<?php echo $tipo?>" class="form-control mt-2" placeholder="Agrega el tipo de platillo">
-            <input type="number" name="precio" value="<?php echo $precio?>" class="form-control mt-2" placeholder="Agrega el precio del platillo">
+            <input type="number" name="precio" value="<?php echo $precio?>" step="any" class="form-control mt-2" placeholder="Agrega el precio del platillo">
           </div>
           <div class="form-group">
             <textarea name="detalles" rows="3" class="form-control mt-2" placeholder="Agrega una descripción"><?php echo $detalles; ?></textarea>

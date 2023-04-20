@@ -28,7 +28,7 @@
             <textarea name="detalles" rows="3" class="form-control mt-2" placeholder="Detalles"></textarea>
           </div>
           <div class="form-group">
-            <input type="number" name="precio" class="form-control mt-2" placeholder="Precio" step="0.01">
+            <input type="number" name="precio" class="form-control mt-2" placeholder="Precio" step="any">
           </div>
           <div class="d-grid gap-2">
               <input type="submit" class="btn btn-primary mt-3" name="save_product" value="Guardar">
