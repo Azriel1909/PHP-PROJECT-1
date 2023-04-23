@@ -9,7 +9,7 @@ Elaborado por Ximena Toledo
 2. Tener instalado PHP
 3. Tener instalado MySql
 
-> Nota importante: Si instalas XAMPP, no hay necesidad de instalar Apache Y MySql
+> Nota importante: Si instalas XAMPP, no hay necesidad de instalar Apache Y MySql.
 
 ## COMANDOS 
 ---
